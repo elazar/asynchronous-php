@@ -19,6 +19,22 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [React](#react)
   * [Recoil](#recoil)
 * [Repositories](#repositories)
+  * [Asynchronous](#asynchronous-1)
+  * [Caching](#caching)
+  * [CLI](#cli)
+  * [Compression](#compression)
+  * [Databases](#databases)
+  * [Events](#events)
+  * [Filesystems](#filesystems)
+  * [GUIs](#guis)
+  * [HTTP](#http)
+  * [IRC](#irc)
+  * [Messaging](#messaging)
+  * [Multitasking](#multitasking)
+  * [Networking](#networking)
+  * [Promises](#promises)
+  * [Web Applications](#web-applications)
+  * [Web Services](#web-services)
 * [People](#people)
 
 ## Concepts
@@ -26,11 +42,11 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 ### Asynchronous
 
 * [Asynchronous I/O - Wikipedia](https://en.wikipedia.org/wiki/Asynchronous_I/O)
-* [Async PHP](https://speakerdeck.com/chrispitt/async-php-1) by [Christopher Pitt](people.md#christopher-pitt)
+* [Async PHP](https://speakerdeck.com/chrispitt/async-php-1) by Christopher Pitt / assertchris
 
 ### Blocking
 
-* [Blocking (computing) - Wikipedia](https://en.wikipedia.org/wiki/Blocking_(computing)
+* [Blocking (computing) - Wikipedia](https://en.wikipedia.org/wiki/Blocking_(computing))
 
 ### Concurrency
 
@@ -38,8 +54,8 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 
 ### Coroutines
 
-* [Cooperative multitasking with generators](https://speakerdeck.com/chrispitt/cooperative-multitasking-with-generators) by [Christopher Pitt](people.md#christopher-pitt)
-* [Cooperative multitasking using coroutines (in PHP!)](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html) by [Nikita Popov](people.md#nikita-popov)
+* [Cooperative multitasking with generators](https://speakerdeck.com/chrispitt/cooperative-multitasking-with-generators) by Christopher Pitt / assertchris
+* [Cooperative multitasking using coroutines (in PHP!)](https://nikic.github.io/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html) by Nikita Popov / nikic
 * [Coroutine - Wikipedia](https://en.wikipedia.org/wiki/Coroutine)
 
 ### Events
@@ -64,13 +80,13 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 ### Reactive Programming
 
 * [Reactive programming - Wikipedia](https://en.wikipedia.org/wiki/Reactive_programming)
-* [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) by [André Staltz](people.md#andre-staltz)
+* [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) by André Staltz / staltz
 
 ## Projects
 
 ### amphp
 
-[Asynchronous](#asynchronous) [multitasking](#multitasking) PHP.
+[Asynchronous](#asynchronous) [multitasking](#multitasking) PHP
 
 [http://amphp.org](http://amphp.org)
 
@@ -82,7 +98,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 
 ### Icicle
 
-[Asynchronous](#asynchronous) PHP using [promises](#promises) and [coroutines](#coroutines).
+[Asynchronous](#asynchronous) PHP using [promises](#promises) and [coroutines](#coroutines)
 
 [http://icicle.io](http://icicle.io)
 
@@ -90,7 +106,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 
 ### React
 
-[Event](#event)-driven, non-[blocking](#blocking) I/O with PHP.
+[Event](#event)-driven, non-[blocking](#blocking) I/O with PHP
 
 [http://reactphp.org](http://reactphp.org/)
 
@@ -98,7 +114,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 
 ### Recoil
 
-Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines).
+Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 
 [http://recoil.io](http://recoil.io)
 
