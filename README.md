@@ -106,7 +106,7 @@ Icicle is a PHP library for writing asynchronous code using synchronous coding t
 
 ### React
 
-Nuclear Reactor written in PHP.
+Event-driven, non-blocking I/O with PHP.
 
 - GitHub: [reactphp](https://github.com/reactphp)
 - Website: [reactphp.org](http://reactphp.org/)
