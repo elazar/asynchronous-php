@@ -24,6 +24,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [CLI](#cli)
   * [Compression](#compression)
   * [Databases](#databases)
+  * [DNS](#dns)
   * [Events](#events)
   * [Filesystems](#filesystems)
   * [GUIs](#guis)
@@ -33,6 +34,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Multitasking](#multitasking)
   * [Networking](#networking)
   * [Promises](#promises)
+  * [Sockets and Streams](#sockets-and-streams)
   * [Web Applications](#web-applications)
   * [Web Services](#web-services)
 * [People](#people)
@@ -156,6 +158,13 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [amphp/pgsql](https://github.com/amphp/pgsql) - A non-blocking PostgreSQL library built on [amp](#amphp)
 * [recoilphp/database](https://github.com/recoilphp/database) - Asynchronous PDO for [Recoil](#recoil)
 
+### DNS
+
+* [amphp/dns](https://github.com/amphp/dns) - Async DNS resolution built on [amp](#amphp)
+* [clue/php-mdns-react](https://github.com/clue/php-mdns-react) - Simple async multicast DNS (mDNS) resolver built on [React](#react)
+* [icicleio/dns](https://github.com/icicleio/dns) - Asynchronous DNS component for [Icicle](#icicle)
+* [reactphp/dns](https://github.com/reactphp/dns) - Asynchronous DNS resolver
+
 ### Events
 
 * [asyncphp/remit](https://github.com/asyncphp/remit) - Distributed event emitter
@@ -207,25 +216,14 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 
 ### Networking
 
-* [amphp/socket](https://github.com/amphp/socket) - Non-blocking socket and TLS functionality built on [amp](#amphp)
-* [amphp/dns](https://github.com/amphp/dns) - Async DNS resolution built on [amp](#amphp)
 * [clue/php-ami-react](https://github.com/clue/php-ami-react) - Simple async event-driven access to the Asterisk Manager Interface (AMI) built on [React](#react)
 * [clue/php-icmp-react](https://github.com/clue/php-icmp-react) - Simple async low-level ICMP (ping) messaging library built on [React](#react)
-* [clue/php-mdns-react](https://github.com/clue/php-mdns-react) - Simple async multicast DNS (mDNS) resolver built on [React](#react)
 * [clue/php-multicast-react](https://github.com/clue/php-multicast-react) - Simple multicast UDP messages built on [React](#react)
-* [clue/php-socket-react](https://github.com/clue/php-socket-react) - Binding for raw sockets (ext-sockets) in [React](#react)
 * [clue/php-ssdp-react](https://github.com/clue/php-ssdp-react) - Async Simple Service Discovery Protocol (SSDP) built on [React](#react)
 * [clue/php-solusvm-api-react](https://github.com/clue/php-solusvm-api-react) - Simple async access to your VPS box through the SolusVM API built on [React](#react)
 * [clue/php-socks-react](https://github.com/clue/php-socks-react) - Async SOCKS TCP tunnel proxy client and server built on [React](#react)
 * [clue/php-wake-on-lan-react](https://github.com/clue/php-wake-on-lan-react) - Turn on your PC with Wake-On-LAN requests via [React](#react)
-* [icicleio/dns](https://github.com/icicleio/dns) - Asynchronous DNS component for [Icicle](#icicle)
-* [icicleio/socket](https://github.com/icicleio/socket) - Asynchronous stream socket server and client for [Icicle](#icicle)
-* [icicleio/stream](https://github.com/icicleio/stream) - Coroutine-based asynchronous stream interfaces for [Icicle](#icicle)
 * [reactphp/datagram](https://github.com/reactphp/datagram) - UDP client and server sockets for [React](#react)
-* [reactphp/dns](https://github.com/reactphp/dns) - Asynchronous DNS resolver
-* [reactphp/socket](https://github.com/reactphp/socket) - Asynchronous socket server
-* [reactphp/socket-client](https://github.com/reactphp/socket-client) - Async connector to open TCP/IP and SSL/TLS based connections
-* [reactphp/stream](https://github.com/reactphp/stream) - Asynchronous OO stream wrapper
 * [reactphp/whois](https://github.com/reactphp/whois) - Whois client based on [React](#react)
 * [umpirsky/wisdom](https://github.com/umpirsky/wisdom) - Domain availability checker
 
@@ -235,6 +233,16 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
 * [reactphp/promise](https://github.com/reactphp/promise) - A lightweight implementation of CommonJS Promises/A for PHP
 * [reactphp/promise-timer](https://github.com/reactphp/promise-timer) - Timeout implementation for the [React](#react) promises library
+
+### Sockets and Streams
+
+* [amphp/socket](https://github.com/amphp/socket) - Non-blocking socket and TLS functionality built on [amp](#amphp)
+* [clue/php-socket-react](https://github.com/clue/php-socket-react) - Binding for raw sockets (ext-sockets) in [React](#react)
+* [icicleio/socket](https://github.com/icicleio/socket) - Asynchronous stream socket server and client for [Icicle](#icicle)
+* [icicleio/stream](https://github.com/icicleio/stream) - Coroutine-based asynchronous stream interfaces for [Icicle](#icicle)
+* [reactphp/socket](https://github.com/reactphp/socket) - Asynchronous socket server
+* [reactphp/socket-client](https://github.com/reactphp/socket-client) - Async connector to open TCP/IP and SSL/TLS based connections
+* [reactphp/stream](https://github.com/reactphp/stream) - Asynchronous OO stream wrapper
 
 ### Web Applications
 
