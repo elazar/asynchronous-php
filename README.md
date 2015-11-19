@@ -12,6 +12,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Observables](#observables)
   * [Promises](#promises)
   * [Reactive Programming](#reaction-programming)
+  * [Threads](#threads)
 * [Projects](#projects)
   * [amphp](#amphp)
   * [Async PHP](#async-php)
@@ -83,6 +84,11 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 
 * [Reactive programming - Wikipedia](https://en.wikipedia.org/wiki/Reactive_programming)
 * [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) by André Staltz / staltz
+
+### Threads
+
+* [Thread (computing) - Wikipedia](https://en.wikipedia.org/wiki/Thread_(computing))
+* [Thread carefully](http://blog.madewithlove.be/post/thread-carefully/) by Maxime Fabre
 
 ## Projects
 
