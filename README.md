@@ -184,6 +184,7 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [amphp/file](https://github.com/amphp/file) - An async filesystem library built on [amp](#amphp)
 * [icicleio/filesystem](https://github.com/icicleio/filesystem) - Asynchronous file access for [Icicle](#icicle)
 * [reactphp/filesystem](https://github.com/reactphp/filesystem) - Evented filesystem access
+* [WyriHaximus/reactphp-filesystem-s3](https://github.com/WyriHaximus/reactphp-filesystem-s3) - AWS S3 adapter for [reactphp/filesystem](https://github.com/reactphp/filesystem)
 
 ### GUIs
 
@@ -197,6 +198,9 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [icicleio/psr7-bridge](https://github.com/icicleio/psr7-bridge) - PSR-7 Bridge for [Icicle](#icicle) HTTP component
 * [reactphp/http](https://github.com/reactphp/http) - [React](#react) HTTP server
 * [reactphp/http-client](https://github.com/reactphp/http-client) - Asynchronous HTTP client library
+* [WyriHaximus/react-guzzle-psr7](https://github.com/WyriHaximus/react-guzzle-psr7) - [React](#react) HTTP client adapter for Guzzle 6
+* [WyriHaximus/ReactGuzzleRing](https://github.com/WyriHaximus/ReactGuzzleRing) - [React](#react) HTTP client wrapper for Guzzle 5
+* [WyriHaximus/ReactGuzzle](https://github.com/WyriHaximus/ReactGuzzle) - [React](#react) HTTP client wrapper for Guzzle 4
 
 ### IRC
 
@@ -219,6 +223,8 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [icicleio/concurrent](https://github.com/icicleio/concurrent) - Concurrency component for [Icicle](#icicle)
 * [reactphp/child-process](https://github.com/reactphp/child-process) - Library for executing child processes
 * [recoilphp/recoil](https://github.com/recoilphp/recoil) - Cooperative multitasking for PHP via coroutines
+* [WyriHaximus/reactphp-child-process-messenger](https://github.com/WyriHaximus/reactphp-child-process-messenger) - Plain messages and RPC style STDIN/OUT/ERR wrapper around [react/child-process](https://github.com/reactphp/child-process)
+* [WyriHaximus/reactphp-child-process-pool](https://github.com/WyriHaximus/reactphp-child-process-pool) - Pool implementation for [WyriHaximus/reactphp-child-process-messenger](https://github.com/WyriHaximus/reactphp-child-process-messenger)
 
 ### Networking
 
@@ -232,6 +238,7 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [reactphp/datagram](https://github.com/reactphp/datagram) - UDP client and server sockets for [React](#react)
 * [reactphp/whois](https://github.com/reactphp/whois) - Whois client based on [React](#react)
 * [umpirsky/wisdom](https://github.com/umpirsky/wisdom) - Domain availability checker
+* [WyriHaximus/PhuninNode](https://github.com/WyriHaximus/PhuninNode) - munin-node port aiming to provide application monitoring utilizing munin
 
 ### Promises
 
@@ -249,6 +256,7 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [reactphp/socket](https://github.com/reactphp/socket) - Asynchronous socket server
 * [reactphp/socket-client](https://github.com/reactphp/socket-client) - Async connector to open TCP/IP and SSL/TLS based connections
 * [reactphp/stream](https://github.com/reactphp/stream) - Asynchronous OO stream wrapper
+* [WyriHaximus/reactphp-psr7-stream-converter](https://github.com/WyriHaximus/reactphp-psr7-stream-converter) - PSR-7 to [React](#react) stream converter and vice versa
 
 ### Web Applications
 
