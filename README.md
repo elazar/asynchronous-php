@@ -79,6 +79,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 ### Promises
 
 * [Futures and promises - Wikipedia](https://en.wikipedia.org/wiki/Futures_and_promises)
+* [Promises and Generators](https://github.com/evert/promises-and-generators) by Evert Pot / evert
 
 ### Reactive Programming
 
@@ -178,6 +179,7 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
 * [recoilphp/event-emitter](https://github.com/recoilphp/event-emitter) - A coroutine-based event emitter
 * [reactphp/event-loop](https://github.com/reactphp/event-loop) - React's core reactor event-loop
+* [sabre/event](http://sabre.io/event/) - Lightweight library for event-based development
 
 ### Filesystems
 
