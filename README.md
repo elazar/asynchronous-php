@@ -96,39 +96,35 @@ Over time, I've noticed a lot of interesting information, code, and people cente
 
 ### amphp
 
-[Asynchronous](#asynchronous) [multitasking](#multitasking) PHP
+A non-blocking concurrency framework for PHP applications.
 
-[http://amphp.org](http://amphp.org)
-
-[@amphp](https://github.com/amphp)
+- GitHub: [amphp](https://github.com/amphp)
+- Website: [amphp.org](http://amphp.org)
 
 ### Async PHP
 
-[@asyncphp](https://github.com/asyncphp)
+- GitHub: [asyncphp](https://github.com/asyncphp)
 
 ### Icicle
 
-[Asynchronous](#asynchronous) PHP using [promises](#promises) and [coroutines](#coroutines)
+Icicle is a PHP library for writing asynchronous code using synchronous coding techniques.
 
-[http://icicle.io](http://icicle.io)
-
-[@icicleio](https://github.com/icicleio)
+- Github: [icicleio](https://github.com/icicleio)
+- Website: [icicle.io](http://icicle.io)
 
 ### React
 
-[Event](#event)-driven, non-[blocking](#blocking) I/O with PHP
+Event-driven, non-blocking I/O with PHP.
 
-[http://reactphp.org](http://reactphp.org/)
-
-[@reactphp](https://github.com/reactphp)
+- GitHub: [reactphp](https://github.com/reactphp)
+- Website: [reactphp.org](http://reactphp.org/)
 
 ### Recoil
 
-Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
+Cooperative multitasking for PHP via coroutines.
 
-[http://recoil.io](http://recoil.io)
-
-[@recoilphp](https://github.com/recoilphp)
+- GitHub: [recoilphp](https://github.com/recoilphp)
+- Website: [recoil.io](http://recoil.io)
 
 ### Swoole
 
