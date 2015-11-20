@@ -100,6 +100,7 @@ A non-blocking concurrency framework for PHP applications.
 
 - GitHub: [amphp](https://github.com/amphp)
 - Website: [amphp.org](http://amphp.org)
+- [Amphp series](http://blog.kelunik.com/) by Niklas Keller / kelunik
 
 ### Async PHP
 
@@ -118,6 +119,7 @@ Event-driven, non-blocking I/O with PHP.
 
 - GitHub: [reactphp](https://github.com/reactphp)
 - Website: [reactphp.org](http://reactphp.org/)
+- [React series](http://blog.wyrihaximus.net/categories/reactphp/) by Cees-Jan Kiewiet / wyrihaximus
 
 ### Recoil
 
