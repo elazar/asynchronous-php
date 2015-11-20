@@ -288,7 +288,10 @@ Asynchronous concurrent distributed networking framework for PHP
 ## People
 
 * Alexander / asm89 - [GitHub](https://github.com/asm89)
+* Bob Weinand / bwoebi - [GitHub](https://github.com/bwoebi), [Twitter](https://twitter.com/bwoebi)
 * Cees-Jan Kiewiet / wyrihaximus - [GitHub](https://github.com/wyrihaximus), [Twitter](https://twitter.com/wyrihaximus)
 * Chris Boden / cboden - [GitHub](https://github.com/cboden), [Twitter](http://twitter.com/boden_c)
 * Christian Lück / clue - [GitHub](https://github.com/clue), [Twitter](https://twitter.com/another_clue)
 * Christopher Pitt / assertchris - [GitHub](https://github.com/assertchris), [Twitter](https://twitter.com/assertchris), [Twitch](http://www.twitch.tv/assertchris)
+* Daniel Lowrey / rdlowrey - [GitHub](https://github.com/rdlowrey), [Twitter](https://twitter.com/rdlowrey)
+* Niklas Keller / kelunik - [GitHub](https://github.com/kelunik), [Twitter](https://twitter.com/kelunik)
