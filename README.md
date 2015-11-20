@@ -19,6 +19,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Icicle](#icicle)
   * [React](#react)
   * [Recoil](#recoil)
+  * [Swoole](#swoole)
 * [Repositories](#repositories)
   * [Asynchronous](#asynchronous-1)
   * [Caching](#caching)
@@ -129,6 +130,14 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 
 [@recoilphp](https://github.com/recoilphp)
 
+### Swoole
+
+[Asynchronous](#asynchronous) [concurrent](#concurrency) distributed networking framework for PHP
+
+[http://www.swoole.com](http://www.swoole.com)
+
+[@swoole](https://github.com/swoole)
+
 ## Repositories
 
 ### Asynchronous
@@ -146,6 +155,7 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [clue/php-redis-server](https://github.com/clue/php-redis-server) - A redis server implementation in pure PHP
 * [nrk/predis-async](https://github.com/nrk/predis-async) - Asynchronous Redis client library built on [React](#react)
 * [reactphp/cache](https://github.com/reactphp/cache) - [React](#react) async caching
+* [swoole/redis-async](https://github.com/swoole/redis-async) - Asynchronous Redis client for PHP with built-in connection pooling
 
 ### CLI
 
@@ -164,6 +174,7 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 * [amphp/mysql](https://github.com/amphp/mysql) - An async mysql client built on [amp](#amphp)
 * [amphp/pgsql](https://github.com/amphp/pgsql) - A non-blocking PostgreSQL library built on [amp](#amphp)
 * [recoilphp/database](https://github.com/recoilphp/database) - Asynchronous PDO for [Recoil](#recoil)
+* [swoole/mysql-async](https://github.com/swoole/mysql-async) - Async MySQL client for PHP
 
 ### DNS
 
@@ -264,10 +275,12 @@ Cooperative [multitasking](#multitasking) for PHP via [coroutines](#coroutines)
 
 * [amphp/aerys](https://github.com/amphp/aerys) - A non-blocking HTTP application, WebSocket and file server
 * [amphp/aerys-session](https://github.com/amphp/aerys-session) - Session management for Aerys server
+* [bixuehujin/blink](https://github.com/bixuehujin/blink) - Microframework for building long-running high-performance services
 * [clue/php-sse-react](https://github.com/clue/php-sse-react) - Streaming async HTML5 Server-Sent Events server built on [React](#react)
 * [ratchetphp/Pawl](https://github.com/ratchetphp/Pawl) - Asynchronous WebSocket client
 * [ratchetphp/Ratchet](https://github.com/ratchetphp/Ratchet) - Asynchronous WebSocket server
 * [reactphp/espresso](https://github.com/reactphp/espresso) - Proof-of-concept microframework that integrates Silex with [React](#react)
+* [swoole/swoole-src](https://github.com/swoole/swoole-src) - Event-based concurrent framework for internet applications in PHP, written in C
 * [voryx/Thruway](https://github.com/voryx/Thruway) - client and router implementation of the Web Application Messaging Protocol built on [React](#react)
 
 ### Web Services
