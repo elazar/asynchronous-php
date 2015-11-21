@@ -170,6 +170,7 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/mysql](https://github.com/amphp/mysql) - An async mysql client built on [amp](#amphp)
 * [amphp/pgsql](https://github.com/amphp/pgsql) - A non-blocking PostgreSQL library built on [amp](#amphp)
+* [amphp/redis](https://github.com/amphp/redis) - An async redis client built on [amp](#amphp)
 * [recoilphp/database](https://github.com/recoilphp/database) - Asynchronous PDO for [Recoil](#recoil)
 * [swoole/mysql-async](https://github.com/swoole/mysql-async) - Async MySQL client for PHP
 
@@ -203,6 +204,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ### HTTP
 
 * [amphp/artax](https://github.com/amphp/artax) - An async HTTP/1.1 client built on [amp](#amphp)
+* [amphp/aerys](https://github.com/amphp/aerys) - A non-blocking HTTP application, WebSocket and file server
 * [clue/php-buzz-react](https://github.com/clue/php-buzz-react) - Simple async HTTP client for concurrently processing requests built on [React](#react)
 * [icicleio/http](https://github.com/icicleio/http) - HTTP component for [Icicle](#icicle)
 * [icicleio/psr7-bridge](https://github.com/icicleio/psr7-bridge) - PSR-7 Bridge for [Icicle](#icicle) HTTP component
@@ -252,6 +254,7 @@ Asynchronous concurrent distributed networking framework for PHP
 
 ### Promises
 
+* [amphp/amp](https://github.com/amphp/amp) - A non-blocking concurrency framework for PHP applications
 * [guzzle/promises](https://github.com/guzzle/promises) - Promises/A+ library for PHP with synchronous support
 * [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
 * [reactphp/promise](https://github.com/reactphp/promise) - A lightweight implementation of CommonJS Promises/A for PHP
