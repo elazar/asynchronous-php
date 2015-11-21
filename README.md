@@ -31,6 +31,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Filesystems](#filesystems)
   * [GUIs](#guis)
   * [HTTP](#http)
+  * [Interoperability](#interoperability)
   * [IRC](#irc)
   * [Messaging](#messaging)
   * [Multitasking](#multitasking)
@@ -184,7 +185,6 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [asyncphp/remit](https://github.com/asyncphp/remit) - Distributed event emitter
 * [icicleio/event-emitter](https://github.com/icicleio/event-emitter) - Library that allows objects to emit events that invoke a set of registered callbacks
-* [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
 * [recoilphp/event-emitter](https://github.com/recoilphp/event-emitter) - A coroutine-based event emitter
 * [reactphp/event-loop](https://github.com/reactphp/event-loop) - React's core reactor event-loop
 * [sabre/event](http://sabre.io/event/) - Lightweight library for event-based development
@@ -211,6 +211,10 @@ Asynchronous concurrent distributed networking framework for PHP
 * [WyriHaximus/react-guzzle-psr7](https://github.com/WyriHaximus/react-guzzle-psr7) - [React](#react) HTTP client adapter for Guzzle 6
 * [WyriHaximus/ReactGuzzleRing](https://github.com/WyriHaximus/ReactGuzzleRing) - [React](#react) HTTP client wrapper for Guzzle 5
 * [WyriHaximus/ReactGuzzle](https://github.com/WyriHaximus/ReactGuzzle) - [React](#react) HTTP client wrapper for Guzzle 4
+
+## Interoperability
+
+* [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
 
 ### IRC
 
@@ -253,7 +257,6 @@ Asynchronous concurrent distributed networking framework for PHP
 ### Promises
 
 * [guzzle/promises](https://github.com/guzzle/promises) - Promises/A+ library for PHP with synchronous support
-* [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
 * [reactphp/promise](https://github.com/reactphp/promise) - A lightweight implementation of CommonJS Promises/A for PHP
 * [reactphp/promise-timer](https://github.com/reactphp/promise-timer) - Timeout implementation for the [React](#react) promises library
 
