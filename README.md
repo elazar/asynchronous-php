@@ -101,7 +101,7 @@ A non-blocking concurrency framework for PHP applications.
 
 - GitHub: [amphp](https://github.com/amphp)
 - Website: [amphp.org](http://amphp.org)
-- [Amphp series](http://blog.kelunik.com/) by Niklas Keller / kelunik
+- [amphp blog series](http://blog.kelunik.com/tags/amphp.html) by Niklas Keller / kelunik
 
 ### Async PHP
 
