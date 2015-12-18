@@ -290,6 +290,7 @@ An asynchronous event driven PHP framework for easily building fast, scalable ne
 * [reactphp/espresso](https://github.com/reactphp/espresso) - Proof-of-concept microframework that integrates Silex with [React](#react)
 * [swoole/swoole-src](https://github.com/swoole/swoole-src) - Event-based concurrent framework for internet applications in PHP, written in C
 * [voryx/Thruway](https://github.com/voryx/Thruway) - client and router implementation of the Web Application Messaging Protocol built on [React](#react)
+* [walkor/phpsocket.io](https://github.com/walkor/phpsocket.io) - An alternative implementation of socket.io in PHP based on [Workerman](#workerman)
 
 ### Web Services
 
