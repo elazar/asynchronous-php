@@ -161,6 +161,7 @@ Asynchronous concurrent distributed networking framework for PHP
 * [clue/php-readline-react](https://github.com/clue/php-readline-react) - Experimental reactive binding for ext-readline, built on [React](#react)
 * [clue/php-shell-react](https://github.com/clue/php-shell-react) - Run async commands within any interactive shell command built on [React](#react)
 * [clue/php-stdio-react](https://github.com/clue/php-stdio-react) - Async event-driven and UTF-8 aware standard console input & output for [React](#react)
+* [php-pm/php-pm](https://github.com/php-pm/php-pm) - CLI process manager for modern Request-Response PHP Applications - with a builtin load-balancer built on [React](#react)
 
 ### Compression
 
@@ -235,7 +236,6 @@ Asynchronous concurrent distributed networking framework for PHP
 * [asyncphp/assistant](https://github.com/asyncphp/assistant) - A neat wrapper around multi-process abstractions and distributed event emitters
 * [asyncphp/doorman](https://github.com/asyncphp/doorman) - Child process management
 * [icicleio/concurrent](https://github.com/icicleio/concurrent) - Concurrency component for [Icicle](#icicle)
-* [php-pm/php-pm](https://github.com/php-pm/php-pm) - CLI process manager for modern Request-Response PHP Applications - with a builtin load-balancer.
 * [reactphp/child-process](https://github.com/reactphp/child-process) - Library for executing child processes
 * [recoilphp/recoil](https://github.com/recoilphp/recoil) - Cooperative multitasking for PHP via coroutines
 * [WyriHaximus/reactphp-child-process-messenger](https://github.com/WyriHaximus/reactphp-child-process-messenger) - Plain messages and RPC style STDIN/OUT/ERR wrapper around [react/child-process](https://github.com/reactphp/child-process)
