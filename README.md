@@ -235,6 +235,7 @@ Asynchronous concurrent distributed networking framework for PHP
 * [asyncphp/assistant](https://github.com/asyncphp/assistant) - A neat wrapper around multi-process abstractions and distributed event emitters
 * [asyncphp/doorman](https://github.com/asyncphp/doorman) - Child process management
 * [icicleio/concurrent](https://github.com/icicleio/concurrent) - Concurrency component for [Icicle](#icicle)
+* [php-pm/php-pm](https://github.com/php-pm/php-pm) - CLI process manager for modern Request-Response PHP Applications - with a builtin load-balancer.
 * [reactphp/child-process](https://github.com/reactphp/child-process) - Library for executing child processes
 * [recoilphp/recoil](https://github.com/recoilphp/recoil) - Cooperative multitasking for PHP via coroutines
 * [WyriHaximus/reactphp-child-process-messenger](https://github.com/WyriHaximus/reactphp-child-process-messenger) - Plain messages and RPC style STDIN/OUT/ERR wrapper around [react/child-process](https://github.com/reactphp/child-process)
