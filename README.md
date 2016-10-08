@@ -17,6 +17,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [amphp](#amphp)
   * [Async PHP](#async-php)
   * [Icicle](#icicle)
+  * [Kraken](#kraken)
   * [React](#react)
   * [Recoil](#recoil)
   * [Swoole](#swoole)
@@ -38,6 +39,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Networking](#networking)
   * [Promises](#promises)
   * [Sockets and Streams](#sockets-and-streams)
+  * [Supervising](#supervising)
   * [Web Applications](#web-applications)
   * [Web Services](#web-services)
 * [People](#people)
@@ -122,6 +124,13 @@ Event-driven, non-blocking I/O with PHP.
 - Website: [reactphp.org](http://reactphp.org/)
 - [React series](http://blog.wyrihaximus.net/categories/reactphp/) by Cees-Jan Kiewiet / wyrihaximus
 
+### Kraken
+
+PHP framework for creating multi-processed, multi-threaded, fault-tolerant applications using event-driven, message-driven and agent-based architecture.
+
+- GitHub: [kraken-php](https://github.com/kraken-php)
+- Website: [kraken-php.com](http://kraken-php.com)
+
 ### Recoil
 
 Cooperative multitasking for PHP via coroutines.
@@ -185,6 +194,8 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [asyncphp/remit](https://github.com/asyncphp/remit) - Distributed event emitter
 * [icicleio/event-emitter](https://github.com/icicleio/event-emitter) - Library that allows objects to emit events that invoke a set of registered callbacks
+* [kraken-php/event](https://github.com/kraken-php/event) - Library implementing EventEmitters and EventListeners for Kraken PHP
+* [kraken-php/loop](https://github.com/kraken-php/loop) - An abstraction layer for writing asynchronous code in PHP on single thread or process with usage of single or multiple computing flows
 * [recoilphp/event-emitter](https://github.com/recoilphp/event-emitter) - A coroutine-based event emitter
 * [reactphp/event-loop](https://github.com/reactphp/event-loop) - React's core reactor event-loop
 * [sabre/event](http://sabre.io/event/) - Lightweight library for event-based development
@@ -206,6 +217,7 @@ Asynchronous concurrent distributed networking framework for PHP
 * [clue/php-buzz-react](https://github.com/clue/php-buzz-react) - Simple async HTTP client for concurrently processing requests built on [React](#react)
 * [icicleio/http](https://github.com/icicleio/http) - HTTP component for [Icicle](#icicle)
 * [icicleio/psr7-bridge](https://github.com/icicleio/psr7-bridge) - PSR-7 Bridge for [Icicle](#icicle) HTTP component
+* [kraken-php/network](https://github.com/kraken-php/network) - TCP, HTTP and WebSocket Server for [Kraken](#kraken)
 * [reactphp/http](https://github.com/reactphp/http) - [React](#react) HTTP server
 * [reactphp/http-client](https://github.com/reactphp/http-client) - Asynchronous HTTP client library
 * [WyriHaximus/react-guzzle-psr7](https://github.com/WyriHaximus/react-guzzle-psr7) - [React](#react) HTTP client adapter for Guzzle 6
@@ -215,6 +227,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ## Interoperability
 
 * [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
+* [kraken-php/loop](https://github.com/kraken-php/loop) - Loop implementation for [Kraken](#kraken) with a set of [React](#react) adapters.
 
 ### IRC
 
@@ -223,6 +236,8 @@ Asynchronous concurrent distributed networking framework for PHP
 
 ### Messaging
 
+* [kraken-php/channel](https://github.com/kraken-php/channel) - IPC abstraction for various models implementing heartbeat mechanism, routing system and more
+* [kraken-php/ipc](https://github.com/kraken-php/ipc) - Asynchronous IPC models for [Kraken](#kraken) including Socket and ZMQ
 * [reactphp/stomp](https://github.com/reactphp/stomp) - STOMP bindings for [React](#react)
 * [reactphp/zmq](https://github.com/reactphp/zmq) - ZeroMQ bindings for [React](#react)
 * [recoilphp/amqp](https://github.com/recoilphp/amqp) - An asynchronous AMQP client for [React](#react) and [Recoil](#recoil)
@@ -235,6 +250,7 @@ Asynchronous concurrent distributed networking framework for PHP
 * [asyncphp/assistant](https://github.com/asyncphp/assistant) - A neat wrapper around multi-process abstractions and distributed event emitters
 * [asyncphp/doorman](https://github.com/asyncphp/doorman) - Child process management
 * [icicleio/concurrent](https://github.com/icicleio/concurrent) - Concurrency component for [Icicle](#icicle)
+* [krake-php/runtime](https://github.com/kraken-php/runtime) - Container-based abstractions for Threads and Processes with delegated supervising
 * [reactphp/child-process](https://github.com/reactphp/child-process) - Library for executing child processes
 * [recoilphp/recoil](https://github.com/recoilphp/recoil) - Cooperative multitasking for PHP via coroutines
 * [WyriHaximus/reactphp-child-process-messenger](https://github.com/WyriHaximus/reactphp-child-process-messenger) - Plain messages and RPC style STDIN/OUT/ERR wrapper around [react/child-process](https://github.com/reactphp/child-process)
@@ -257,6 +273,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ### Promises
 
 * [guzzle/promises](https://github.com/guzzle/promises) - Promises/A+ library for PHP with synchronous support
+* [kraken-php/promise](https://github.com/kraken-php/promsies) - Implementation of Promise/A+ promises with cancellation support
 * [reactphp/promise](https://github.com/reactphp/promise) - A lightweight implementation of CommonJS Promises/A for PHP
 * [reactphp/promise-timer](https://github.com/reactphp/promise-timer) - Timeout implementation for the [React](#react) promises library
 
@@ -266,10 +283,16 @@ Asynchronous concurrent distributed networking framework for PHP
 * [clue/php-socket-react](https://github.com/clue/php-socket-react) - Binding for raw sockets (ext-sockets) in [React](#react)
 * [icicleio/socket](https://github.com/icicleio/socket) - Asynchronous stream socket server and client for [Icicle](#icicle)
 * [icicleio/stream](https://github.com/icicleio/stream) - Coroutine-based asynchronous stream interfaces for [Icicle](#icicle)
+* [kraken-php/ipc](https://github.com/kraken-php/ipc) - Asynchronous Socket listener and client
+* [kraken-php/stream](https://github.com/kraken-php/stream) - Asynchronous Streams
 * [reactphp/socket](https://github.com/reactphp/socket) - Asynchronous socket server
 * [reactphp/socket-client](https://github.com/reactphp/socket-client) - Async connector to open TCP/IP and SSL/TLS based connections
 * [reactphp/stream](https://github.com/reactphp/stream) - Asynchronous OO stream wrapper
 * [WyriHaximus/reactphp-psr7-stream-converter](https://github.com/WyriHaximus/reactphp-psr7-stream-converter) - PSR-7 to [React](#react) stream converter and vice versa
+
+### Supervising
+
+* [kraken-php/supervision](https://github.com/kraken-php/supervision) - Supervision system of [Kraken](#kraken)
 
 ### Web Applications
 
@@ -277,6 +300,7 @@ Asynchronous concurrent distributed networking framework for PHP
 * [amphp/aerys-session](https://github.com/amphp/aerys-session) - Session management for Aerys server
 * [bixuehujin/blink](https://github.com/bixuehujin/blink) - Microframework for building long-running high-performance services
 * [clue/php-sse-react](https://github.com/clue/php-sse-react) - Streaming async HTML5 Server-Sent Events server built on [React](#react)
+* [kraken-php/framework](https://github.com/kraken-php/framework) - PHP framework for creating multi-processed, multi-threaded, fault-tolerant applications using event-driven, message-driven and agent-based architecture
 * [ratchetphp/Pawl](https://github.com/ratchetphp/Pawl) - Asynchronous WebSocket client
 * [ratchetphp/Ratchet](https://github.com/ratchetphp/Ratchet) - Asynchronous WebSocket server
 * [reactphp/espresso](https://github.com/reactphp/espresso) - Proof-of-concept microframework that integrates Silex with [React](#react)
@@ -299,4 +323,5 @@ Asynchronous concurrent distributed networking framework for PHP
 * Christian Lück / clue - [GitHub](https://github.com/clue), [Twitter](https://twitter.com/another_clue)
 * Christopher Pitt / assertchris - [GitHub](https://github.com/assertchris), [Twitter](https://twitter.com/assertchris), [Twitch](http://www.twitch.tv/assertchris)
 * Daniel Lowrey / rdlowrey - [GitHub](https://github.com/rdlowrey), [Twitter](https://twitter.com/rdlowrey)
+* Kamil Jamroz / khelle - [GitHub](https://github.com/khelle)
 * Niklas Keller / kelunik - [GitHub](https://github.com/kelunik), [Twitter](https://twitter.com/kelunik)
