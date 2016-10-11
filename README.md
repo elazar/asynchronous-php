@@ -169,6 +169,7 @@ Asynchronous concurrent distributed networking framework for PHP
 * [clue/php-readline-react](https://github.com/clue/php-readline-react) - Experimental reactive binding for ext-readline, built on [React](#react)
 * [clue/php-shell-react](https://github.com/clue/php-shell-react) - Run async commands within any interactive shell command built on [React](#react)
 * [clue/php-stdio-react](https://github.com/clue/php-stdio-react) - Async event-driven and UTF-8 aware standard console input & output for [React](#react)
+* [php-pm/php-pm](https://github.com/php-pm/php-pm) - CLI process manager for modern Request-Response PHP Applications - with a builtin load-balancer built on [React](#react)
 
 ### Compression
 
