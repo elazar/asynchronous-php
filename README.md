@@ -39,7 +39,6 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Networking](#networking)
   * [Promises](#promises)
   * [Sockets and Streams](#sockets-and-streams)
-  * [Supervising](#supervising)
   * [Web Applications](#web-applications)
   * [Web Services](#web-services)
 * [People](#people)
@@ -289,10 +288,6 @@ Asynchronous concurrent distributed networking framework for PHP
 * [reactphp/socket-client](https://github.com/reactphp/socket-client) - Async connector to open TCP/IP and SSL/TLS based connections
 * [reactphp/stream](https://github.com/reactphp/stream) - Asynchronous OO stream wrapper
 * [WyriHaximus/reactphp-psr7-stream-converter](https://github.com/WyriHaximus/reactphp-psr7-stream-converter) - PSR-7 to [React](#react) stream converter and vice versa
-
-### Supervising
-
-* [kraken-php/supervision](https://github.com/kraken-php/supervision) - Supervision system of [Kraken](#kraken)
 
 ### Web Applications
 
