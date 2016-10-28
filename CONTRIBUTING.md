@@ -5,6 +5,12 @@ format that's easy to navigate. The information it contains is currently
 divided into four sections, each with its own guidelines for contributions as
 detailed below.
 
+The content within each section should be sorted alphabetically to make them
+easy to scan.
+
+New additions must have a web site or documentation available in English so
+they can be thoroughly evaluated for applicability prior to inclusion.
+
 To submit a contribution, simply [fork this repository](https://help.github.com/articles/fork-a-repo/)
 and [submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
