@@ -144,6 +144,13 @@ Asynchronous concurrent distributed networking framework for PHP
 - GitHub: [swoole](https://github.com/swoole)
 - Website: [swoole.com](http://www.swoole.com)
 
+## appserver.io
+
+A multithreaded application server for PHP, written in PHP. 
+
+- GitHub: [appserver-io](https://github.com/appserver-io/appserver)
+- Website: [http://appserver.io/](http://appserver.io/)
+
 ## Repositories
 
 ### Asynchronous
