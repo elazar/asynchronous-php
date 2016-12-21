@@ -11,7 +11,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Multitasking](#multitasking)
   * [Observables](#observables)
   * [Promises](#promises)
-  * [Reactive Programming](#reaction-programming)
+  * [Reactive Programming](#reactive-programming)
   * [Threads](#threads)
 * [Projects](#projects)
   * [amphp](#amphp)
