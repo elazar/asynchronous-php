@@ -115,13 +115,6 @@ A multithreaded application server for PHP, written in PHP.
 
 - GitHub: [asyncphp](https://github.com/asyncphp)
 
-### Icicle
-
-Icicle is a PHP library for writing asynchronous code using synchronous coding techniques.
-
-- Github: [icicleio](https://github.com/icicleio)
-- Website: [icicle.io](http://icicle.io)
-
 ### React
 
 Event-driven, non-blocking I/O with PHP.
@@ -157,7 +150,6 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [asm89/Rx.PHP](https://github.com/asm89/Rx.PHP) - Libraries to compose asynchronous and event-based programs using observable collections and LINQ-style query operators
 * [clue/php-block-react](https://github.com/clue/php-block-react) - Lightweight library that eases integrating async components built for [React](#react) in a traditional blocking environment
-* [icicleio/icicle](https://github.com/icicleio/icicle) - Library for writing asynchronous code using synchronous coding techniques
 
 ### Caching
 
@@ -194,13 +186,11 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/dns](https://github.com/amphp/dns) - Async DNS resolution built on [amp](#amphp)
 * [clue/php-mdns-react](https://github.com/clue/php-mdns-react) - Simple async multicast DNS (mDNS) resolver built on [React](#react)
-* [icicleio/dns](https://github.com/icicleio/dns) - Asynchronous DNS component for [Icicle](#icicle)
 * [reactphp/dns](https://github.com/reactphp/dns) - Asynchronous DNS resolver
 
 ### Events
 
 * [asyncphp/remit](https://github.com/asyncphp/remit) - Distributed event emitter
-* [icicleio/event-emitter](https://github.com/icicleio/event-emitter) - Library that allows objects to emit events that invoke a set of registered callbacks
 * [kraken-php/event](https://github.com/kraken-php/event) - Library implementing EventEmitters and EventListeners for Kraken PHP
 * [kraken-php/loop](https://github.com/kraken-php/loop) - An abstraction layer for writing asynchronous code in PHP on single thread or process with usage of single or multiple computing flows
 * [recoilphp/event-emitter](https://github.com/recoilphp/event-emitter) - A coroutine-based event emitter
@@ -210,7 +200,6 @@ Asynchronous concurrent distributed networking framework for PHP
 ### Filesystems
 
 * [amphp/file](https://github.com/amphp/file) - An async filesystem library built on [amp](#amphp)
-* [icicleio/filesystem](https://github.com/icicleio/filesystem) - Asynchronous file access for [Icicle](#icicle)
 * [reactphp/filesystem](https://github.com/reactphp/filesystem) - Evented filesystem access
 * [WyriHaximus/reactphp-filesystem-s3](https://github.com/WyriHaximus/reactphp-filesystem-s3) - AWS S3 adapter for [reactphp/filesystem](https://github.com/reactphp/filesystem)
 
@@ -222,8 +211,6 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/artax](https://github.com/amphp/artax) - An async HTTP/1.1 client built on [amp](#amphp)
 * [clue/php-buzz-react](https://github.com/clue/php-buzz-react) - Simple async HTTP client for concurrently processing requests built on [React](#react)
-* [icicleio/http](https://github.com/icicleio/http) - HTTP component for [Icicle](#icicle)
-* [icicleio/psr7-bridge](https://github.com/icicleio/psr7-bridge) - PSR-7 Bridge for [Icicle](#icicle) HTTP component
 * [kraken-php/network](https://github.com/kraken-php/network) - TCP, HTTP and WebSocket Server for [Kraken](#kraken)
 * [reactphp/http](https://github.com/reactphp/http) - [React](#react) HTTP server
 * [reactphp/http-client](https://github.com/reactphp/http-client) - Asynchronous HTTP client library
@@ -233,7 +220,6 @@ Asynchronous concurrent distributed networking framework for PHP
 
 ## Interoperability
 
-* [icicleio/react-adapter](https://github.com/icicleio/react-adapter) - Adapts the event loop and promises of [Icicle](#icicle) to interfaces compatible with [React](#react)
 * [kraken-php/loop](https://github.com/kraken-php/loop) - Loop implementation for [Kraken](#kraken) with a set of [React](#react) adapters.
 
 ### IRC
@@ -256,7 +242,6 @@ Asynchronous concurrent distributed networking framework for PHP
 * [amphp/thread](https://github.com/amphp/thread) - An async multi-threaded task dispatcher built on [amp](#amphp)
 * [asyncphp/assistant](https://github.com/asyncphp/assistant) - A neat wrapper around multi-process abstractions and distributed event emitters
 * [asyncphp/doorman](https://github.com/asyncphp/doorman) - Child process management
-* [icicleio/concurrent](https://github.com/icicleio/concurrent) - Concurrency component for [Icicle](#icicle)
 * [krake-php/runtime](https://github.com/kraken-php/runtime) - Container-based abstractions for Threads and Processes with delegated supervising
 * [reactphp/child-process](https://github.com/reactphp/child-process) - Library for executing child processes
 * [recoilphp/recoil](https://github.com/recoilphp/recoil) - Cooperative multitasking for PHP via coroutines
@@ -288,8 +273,6 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/socket](https://github.com/amphp/socket) - Non-blocking socket and TLS functionality built on [amp](#amphp)
 * [clue/php-socket-react](https://github.com/clue/php-socket-react) - Binding for raw sockets (ext-sockets) in [React](#react)
-* [icicleio/socket](https://github.com/icicleio/socket) - Asynchronous stream socket server and client for [Icicle](#icicle)
-* [icicleio/stream](https://github.com/icicleio/stream) - Coroutine-based asynchronous stream interfaces for [Icicle](#icicle)
 * [kraken-php/ipc](https://github.com/kraken-php/ipc) - Asynchronous Socket listener and client
 * [kraken-php/stream](https://github.com/kraken-php/stream) - Asynchronous Streams
 * [reactphp/socket](https://github.com/reactphp/socket) - Asynchronous socket server
@@ -319,6 +302,7 @@ Asynchronous concurrent distributed networking framework for PHP
 
 ## People
 
+* Aaron Piotrowski / trowski - [GitHub](https://github.com/trowski)
 * Alexander / asm89 - [GitHub](https://github.com/asm89)
 * Bob Weinand / bwoebi - [GitHub](https://github.com/bwoebi), [Twitter](https://twitter.com/bwoebi)
 * Cees-Jan Kiewiet / wyrihaximus - [GitHub](https://github.com/wyrihaximus), [Twitter](https://twitter.com/wyrihaximus)
