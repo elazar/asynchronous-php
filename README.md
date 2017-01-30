@@ -18,6 +18,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Async PHP](#async-php)
   * [Icicle](#icicle)
   * [Kraken](#kraken)
+  * [phpDaemon](#phpdaemon)
   * [React](#react)
   * [Recoil](#recoil)
   * [Swoole](#swoole)
@@ -115,6 +116,20 @@ A multithreaded application server for PHP, written in PHP.
 
 - GitHub: [asyncphp](https://github.com/asyncphp)
 
+### Kraken
+
+PHP framework for creating multi-processed, multi-threaded, fault-tolerant applications using event-driven, message-driven and agent-based architecture.
+
+- GitHub: [kraken-php](https://github.com/kraken-php)
+- Website: [kraken-php.com](http://kraken-php.com)
+
+### phpDaemon
+
+Asynchronous server-side framework for network applications implemented in PHP using libevent.
+
+- GitHub: [phpdaemon](https://github.com/kakserpom/phpdaemon)
+- Website: [phpdaemon.io](https://daemon.io)
+
 ### React
 
 Event-driven, non-blocking I/O with PHP.
@@ -122,13 +137,6 @@ Event-driven, non-blocking I/O with PHP.
 - GitHub: [reactphp](https://github.com/reactphp)
 - Website: [reactphp.org](http://reactphp.org/)
 - [React series](http://blog.wyrihaximus.net/categories/reactphp/) by Cees-Jan Kiewiet / wyrihaximus
-
-### Kraken
-
-PHP framework for creating multi-processed, multi-threaded, fault-tolerant applications using event-driven, message-driven and agent-based architecture.
-
-- GitHub: [kraken-php](https://github.com/kraken-php)
-- Website: [kraken-php.com](http://kraken-php.com)
 
 ### Recoil
 
