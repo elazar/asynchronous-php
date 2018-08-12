@@ -15,6 +15,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Threads](#threads)
 * [Projects](#projects)
   * [amphp](#amphp)
+  * [appserver.io](#appserverio)
   * [Async PHP](#async-php)
   * [Icicle](#icicle)
   * [Kraken](#kraken)
@@ -115,13 +116,14 @@ A multithreaded application server for PHP, written in PHP.
 
 - GitHub: [asyncphp](https://github.com/asyncphp)
 
-### React
+### Icicle
 
-Event-driven, non-blocking I/O with PHP.
+A PHP library for writing asynchronous code using synchronous coding techniques.
 
-- GitHub: [reactphp](https://github.com/reactphp)
-- Website: [reactphp.org](http://reactphp.org/)
-- [React series](http://blog.wyrihaximus.net/categories/reactphp/) by Cees-Jan Kiewiet / wyrihaximus
+Deprecated in favor of [Amp](#amphp) v2.
+
+- Github: [icicleio](https://github.com/icicleio)
+- Website: [https://icicle.io/](https://icicle.io/)
 
 ### Kraken
 
@@ -129,6 +131,14 @@ PHP framework for creating multi-processed, multi-threaded, fault-tolerant appli
 
 - GitHub: [kraken-php](https://github.com/kraken-php)
 - Website: [kraken-php.com](http://kraken-php.com)
+
+### React
+
+Event-driven, non-blocking I/O with PHP.
+
+- GitHub: [reactphp](https://github.com/reactphp)
+- Website: [reactphp.org](http://reactphp.org/)
+- [React series](http://blog.wyrihaximus.net/categories/reactphp/) by Cees-Jan Kiewiet / wyrihaximus
 
 ### Recoil
 
