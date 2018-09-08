@@ -19,6 +19,7 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Async PHP](#async-php)
   * [Icicle](#icicle)
   * [Kraken](#kraken)
+  * [phpDaemon](#phpdaemon)
   * [React](#react)
   * [Recoil](#recoil)
   * [Swoole](#swoole)
@@ -105,7 +106,7 @@ A non-blocking concurrency framework for PHP applications.
 - Website: [amphp.org](http://amphp.org)
 - [amphp blog series](http://blog.kelunik.com/tags/amphp.html) by Niklas Keller / kelunik
 
-## appserver.io
+### appserver.io
 
 A multithreaded application server for PHP, written in PHP. 
 
@@ -131,6 +132,13 @@ PHP framework for creating multi-processed, multi-threaded, fault-tolerant appli
 
 - GitHub: [kraken-php](https://github.com/kraken-php)
 - Website: [kraken-php.com](http://kraken-php.com)
+
+### phpDaemon
+
+Asynchronous server-side framework for network applications implemented in PHP using libevent.
+
+- GitHub: [phpdaemon](https://github.com/kakserpom/phpdaemon)
+- Website: [daemon.io](https://daemon.io)
 
 ### React
 
