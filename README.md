@@ -189,6 +189,7 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/mysql](https://github.com/amphp/mysql) - An async mysql client built on [amp](#amphp)
 * [amphp/pgsql](https://github.com/amphp/pgsql) - A non-blocking PostgreSQL library built on [amp](#amphp)
+* [amphp/redis](https://github.com/amphp/redis) - An async redis client built on [amp](#amphp)
 * [recoilphp/database](https://github.com/recoilphp/database) - Asynchronous PDO for [Recoil](#recoil)
 * [Swoole Async Mysql Client](https://www.swoole.co.uk/docs/modules/swoole-async-mysql-client) - Async MySQL client for PHP
 
@@ -220,6 +221,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ### HTTP
 
 * [amphp/artax](https://github.com/amphp/artax) - An async HTTP/1.1 client built on [amp](#amphp)
+* [amphp/aerys](https://github.com/amphp/aerys) - A non-blocking HTTP application, WebSocket and file server
 * [clue/php-buzz-react](https://github.com/clue/php-buzz-react) - Simple async HTTP client for concurrently processing requests built on [React](#react)
 * [kraken-php/network](https://github.com/kraken-php/network) - TCP, HTTP and WebSocket Server for [Kraken](#kraken)
 * [reactphp/http](https://github.com/reactphp/http) - [React](#react) HTTP server
@@ -274,6 +276,7 @@ Asynchronous concurrent distributed networking framework for PHP
 
 ### Promises
 
+* [amphp/amp](https://github.com/amphp/amp) - A non-blocking concurrency framework for PHP applications
 * [guzzle/promises](https://github.com/guzzle/promises) - Promises/A+ library for PHP with synchronous support
 * [kraken-php/promise](https://github.com/kraken-php/promsies) - Implementation of Promise/A+ promises with cancellation support
 * [reactphp/promise](https://github.com/reactphp/promise) - A lightweight implementation of CommonJS Promises/A for PHP
