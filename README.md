@@ -160,7 +160,7 @@ Cooperative multitasking for PHP via coroutines.
 Asynchronous concurrent distributed networking framework for PHP
 
 - GitHub: [swoole](https://github.com/swoole)
-- Website: [swoole.com](http://www.swoole.com)
+- Website: [swoole.co.uk](https://www.swoole.co.uk)
 
 ## Repositories
 
