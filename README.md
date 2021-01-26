@@ -313,10 +313,11 @@ Asynchronous concurrent distributed networking framework for PHP
 
 ### Web Services
 
+* [bergie/dnode-php](https://github.com/bergie/dnode-php) - DNode RPC protocol implementation
 * [clue/php-packagist-api-react](https://github.com/clue/php-packagist-api-react) - Simple async access to packagist.org's API
 * [clue/php-viewvc-api-react](https://github.com/clue/php-viewvc-api-react) - Simple async API-like access to your ViewVC web interface built on [React](#react)
 * [clue/php-soap-react](https://github.com/clue/php-soap-react) - A simple async SOAP webservice client built on [React](#react)
-* [bergie/dnode-php](https://github.com/bergie/dnode-php) - DNode RPC protocol implementation
+* [itnelo/reactphp-webdriver](https://github.com/itnelo/reactphp-webdriver) - Async Selenium WebDriver for [React](#react) (Grid API client, W3C compliant)
 
 ## People
 
