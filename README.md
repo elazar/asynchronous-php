@@ -196,7 +196,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ### Databases
 
 * [amphp/mysql](https://github.com/amphp/mysql) - An async mysql client built on [amp](#amphp)
-* [amphp/pgsql](https://github.com/amphp/pgsql) - A non-blocking PostgreSQL library built on [amp](#amphp)
+* [amphp/pgsql](https://github.com/amphp/postgres) - A non-blocking PostgreSQL library built on [amp](#amphp)
 * [recoilphp/database](https://github.com/recoilphp/database) - Asynchronous PDO for [Recoil](#recoil)
 * [Swoole Async Mysql Client](https://www.swoole.co.uk/docs/modules/swoole-async-mysql-client) - Async MySQL client for PHP
 
