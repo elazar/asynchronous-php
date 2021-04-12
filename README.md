@@ -168,6 +168,7 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [asm89/Rx.PHP](https://github.com/asm89/Rx.PHP) - Libraries to compose asynchronous and event-based programs using observable collections and LINQ-style query operators
 * [clue/php-block-react](https://github.com/clue/php-block-react) - Lightweight library that eases integrating async components built for [React](#react) in a traditional blocking environment
+* [spatie/async](https://github.com/spatie/async) - Asynchronous and parallel PHP, this library provides a small and easy wrapper around PHP's PCNTL extension. It allows running of different processes in parallel, with an easy-to-use API
 
 ### Caching
 
