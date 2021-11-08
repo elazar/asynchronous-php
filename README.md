@@ -252,7 +252,6 @@ Asynchronous concurrent distributed networking framework for PHP
 * [kraken-php/ipc](https://github.com/kraken-php/ipc) - Asynchronous IPC models for [Kraken](#kraken) including Socket and ZMQ
 * [reactphp/stomp](https://github.com/reactphp/stomp) - STOMP bindings for [React](#react)
 * [reactphp/zmq](https://github.com/reactphp/zmq) - ZeroMQ bindings for [React](#react)
-* [recoilphp/amqp](https://github.com/recoilphp/amqp) - An asynchronous AMQP client for [React](#react) and [Recoil](#recoil)
 
 ### Multitasking
 
