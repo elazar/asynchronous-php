@@ -124,7 +124,6 @@ A PHP library for writing asynchronous code using synchronous coding techniques.
 Deprecated in favor of [Amp](#amphp) v2.
 
 - Github: [icicleio](https://github.com/icicleio)
-- Website: [https://icicle.io/](https://icicle.io/)
 
 ### Kraken
 
