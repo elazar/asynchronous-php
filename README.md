@@ -249,8 +249,8 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [kraken-php/channel](https://github.com/kraken-php/channel) - IPC abstraction for various models implementing heartbeat mechanism, routing system and more
 * [kraken-php/ipc](https://github.com/kraken-php/ipc) - Asynchronous IPC models for [Kraken](#kraken) including Socket and ZMQ
-* [reactphp/stomp](https://github.com/reactphp/stomp) - STOMP bindings for [React](#react)
-* [reactphp/zmq](https://github.com/reactphp/zmq) - ZeroMQ bindings for [React](#react)
+* [reactphp/stomp](https://github.com/friends-of-reactphp/stomp) - STOMP bindings for [React](#react)
+* [reactphp/zmq](https://github.com/friends-of-reactphp/zmq) - ZeroMQ bindings for [React](#react)
 
 ### Multitasking
 
