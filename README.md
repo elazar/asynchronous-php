@@ -154,6 +154,11 @@ Cooperative multitasking for PHP via coroutines.
 - GitHub: [recoilphp](https://github.com/recoilphp)
 - Website: [recoil.io](http://recoil.io)
 
+### Revolt
+
+- GitHub: [revoltphp](https://github.com/revoltphp/)
+- Website: [revolt.run](http://revolt.run)
+
 ### Swoole
 
 Asynchronous concurrent distributed networking framework for PHP
@@ -210,8 +215,9 @@ Asynchronous concurrent distributed networking framework for PHP
 * [asyncphp/remit](https://github.com/asyncphp/remit) - Distributed event emitter
 * [kraken-php/event](https://github.com/kraken-php/event) - Library implementing EventEmitters and EventListeners for Kraken PHP
 * [kraken-php/loop](https://github.com/kraken-php/loop) - An abstraction layer for writing asynchronous code in PHP on single thread or process with usage of single or multiple computing flows
-* [recoilphp/event-emitter](https://github.com/recoilphp/event-emitter) - A coroutine-based event emitter
 * [reactphp/event-loop](https://github.com/reactphp/event-loop) - React's core reactor event-loop
+* [recoilphp/event-emitter](https://github.com/recoilphp/event-emitter) - A coroutine-based event emitter
+* [revolt/event-loop](https://github.com/revoltphp/event-loop) - A rock-solid event loop for concurrent PHP applications
 * [sabre/event](http://sabre.io/event/) - Lightweight library for event-based development
 
 ### Filesystems
