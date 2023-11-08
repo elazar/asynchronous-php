@@ -229,6 +229,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ### GUIs
 
 * [clue/php-zenity-react](https://github.com/clue/php-zenity-react) - Build graphical desktop (GUI) applications in PHP
+* [Ardillo](https://github.com/ardillo-php) - Cross-platform desktop applications on top of ReactPHP
 
 ### HTTP
 
