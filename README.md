@@ -17,11 +17,13 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [amphp](#amphp)
   * [appserver.io](#appserverio)
   * [Async PHP](#async-php)
+  * [Hibla](#hibla)
   * [Icicle](#icicle)
   * [Kraken](#kraken)
   * [phpDaemon](#phpdaemon)
   * [React](#react)
   * [Recoil](#recoil)
+  * [Revolt](#revolt)
   * [Swoole](#swoole)
 * [Repositories](#repositories)
   * [Asynchronous](#asynchronous-1)
@@ -30,16 +32,16 @@ Over time, I've noticed a lot of interesting information, code, and people cente
   * [Compression](#compression)
   * [Databases](#databases)
   * [DNS](#dns)
-  * [Events](#events)
+  * [Events](#events-1)
   * [Filesystems](#filesystems)
   * [GUIs](#guis)
   * [HTTP](#http)
   * [Interoperability](#interoperability)
   * [IRC](#irc)
   * [Messaging](#messaging)
-  * [Multitasking](#multitasking)
+  * [Multitasking](#multitasking-1)
   * [Networking](#networking)
-  * [Promises](#promises)
+  * [Promises](#promises-1)
   * [Sockets and Streams](#sockets-and-streams)
   * [Web Applications](#web-applications)
   * [Web Services](#web-services)
@@ -108,7 +110,7 @@ A non-blocking concurrency framework for PHP applications.
 
 ### appserver.io
 
-A multithreaded application server for PHP, written in PHP. 
+A multithreaded application server for PHP, written in PHP.
 
 - GitHub: [appserver-io](https://github.com/appserver-io/appserver)
 - Website: [http://appserver.io/](http://appserver.io/)
@@ -116,6 +118,13 @@ A multithreaded application server for PHP, written in PHP.
 ### Async PHP
 
 - GitHub: [asyncphp](https://github.com/asyncphp)
+
+### Hibla
+
+A modern asynchronous runtime for PHP leveraging native Fibers with structured concurrency, cancellation, fault-tolerant parallelism, and a strong focus on developer experience for common tasks.
+
+- GitHub: [hiblaphp](https://github.com/hiblaphp)
+- Packagist: [hiblaphp/hibla](https://packagist.org/packages/hiblaphp/hibla)
 
 ### Icicle
 
@@ -161,7 +170,7 @@ Cooperative multitasking for PHP via coroutines.
 
 ### Swoole
 
-Asynchronous concurrent distributed networking framework for PHP
+Asynchronous concurrent distributed networking framework for PHP.
 
 - GitHub: [swoole](https://github.com/swoole)
 - Website: [swoole.co.uk](https://www.swoole.co.uk)
@@ -172,6 +181,7 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [asm89/Rx.PHP](https://github.com/asm89/Rx.PHP) - Libraries to compose asynchronous and event-based programs using observable collections and LINQ-style query operators
 * [clue/php-block-react](https://github.com/clue/php-block-react) - Lightweight library that eases integrating async components built for [React](#react) in a traditional blocking environment
+* [hiblaphp/cancellation](https://github.com/hiblaphp/cancellation) - .NET-style `CancellationToken` for propagating abort signals across independent workflows in [Hibla](#hibla)
 * [spatie/async](https://github.com/spatie/async) - Asynchronous and parallel PHP, this library provides a small and easy wrapper around PHP's PCNTL extension. It allows running of different processes in parallel, with an easy-to-use API
 
 ### Caching
@@ -181,6 +191,7 @@ Asynchronous concurrent distributed networking framework for PHP
 * [asyncphp/icicle-cache](https://github.com/asyncphp/icicle-cache) - A simple cache library, built for [Icicle](#icicle), with anti-stampede and promises
 * [clue/php-redis-react](https://github.com/clue/php-redis-react) - Async Redis client implementation built on [React](#react)
 * [clue/php-redis-server](https://github.com/clue/php-redis-server) - A redis server implementation in pure PHP
+* [hiblaphp/cache](https://github.com/hiblaphp/cache) - Promise-based cache abstraction for [Hibla](#hibla) inspired by PSR16 Cache Interface
 * [nrk/predis-async](https://github.com/nrk/predis-async) - Asynchronous Redis client library built on [React](#react)
 * [reactphp/cache](https://github.com/reactphp/cache) - [React](#react) async caching
 * [swoole/redis-async](https://github.com/swoole/redis-async) - Asynchronous Redis client for PHP with built-in connection pooling
@@ -202,17 +213,20 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/mysql](https://github.com/amphp/mysql) - An async mysql client built on [amp](#amphp)
 * [amphp/pgsql](https://github.com/amphp/postgres) - A non-blocking PostgreSQL library built on [amp](#amphp)
+* [hiblaphp/mysql](https://github.com/hiblaphp/mysql) - Enterprise Grade MySQL client for [Hibla](#hibla)
 * [Swoole Async Mysql Client](https://www.swoole.co.uk/docs/modules/swoole-async-mysql-client) - Async MySQL client for PHP
 
 ### DNS
 
 * [amphp/dns](https://github.com/amphp/dns) - Async DNS resolution built on [amp](#amphp)
 * [clue/php-mdns-react](https://github.com/clue/php-mdns-react) - Simple async multicast DNS (mDNS) resolver built on [React](#react)
+* [hiblaphp/dns](https://github.com/hiblaphp/dns) - Non-blocking DNS resolution for [Hibla](#hibla).
 * [reactphp/dns](https://github.com/reactphp/dns) - Asynchronous DNS resolver
 
 ### Events
 
 * [asyncphp/remit](https://github.com/asyncphp/remit) - Distributed event emitter
+* [hiblaphp/event-loop](https://github.com/hiblaphp/event-loop) - Fiber-native, with Node.js style phase-based event loop
 * [kraken-php/event](https://github.com/kraken-php/event) - Library implementing EventEmitters and EventListeners for Kraken PHP
 * [kraken-php/loop](https://github.com/kraken-php/loop) - An abstraction layer for writing asynchronous code in PHP on single thread or process with usage of single or multiple computing flows
 * [reactphp/event-loop](https://github.com/reactphp/event-loop) - React's core reactor event-loop
@@ -223,6 +237,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ### Filesystems
 
 * [amphp/file](https://github.com/amphp/file) - An async filesystem library built on [amp](#amphp)
+* [hiblaphp/filesystem](https://github.com/hiblaphp/filesystem) - Async filesystem access for [Hibla](#hibla)
 * [reactphp/filesystem](https://github.com/reactphp/filesystem) - Evented filesystem access
 * [WyriHaximus/reactphp-filesystem-s3](https://github.com/WyriHaximus/reactphp-filesystem-s3) - AWS S3 adapter for [reactphp/filesystem](https://github.com/reactphp/filesystem)
 
@@ -235,6 +250,8 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/artax](https://github.com/amphp/artax) - An async HTTP/1.1 client built on [amp](#amphp)
 * [clue/php-buzz-react](https://github.com/clue/php-buzz-react) - Simple async HTTP client for concurrently processing requests built on [React](#react)
+* [hiblaphp/http-client](https://github.com/hiblaphp/http-client) - Elegant Async HTTP client for [Hibla](#hibla) supporting streaming, Server-Sent Events, and interceptors
+* [hiblaphp/http-client-testing](https://github.com/hiblaphp/http-client-testing) - Full HTTP request simulation framework for Pest/PHPUnit built for [hiblaphp/http-client](https://github.com/hiblaphp/http-client)
 * [kraken-php/network](https://github.com/kraken-php/network) - TCP, HTTP and WebSocket Server for [Kraken](#kraken)
 * [reactphp/http](https://github.com/reactphp/http) - [React](#react) HTTP server
 * [reactphp/http-client](https://github.com/reactphp/http-client) - Asynchronous HTTP client library
@@ -265,6 +282,8 @@ Asynchronous concurrent distributed networking framework for PHP
 * [amphp/thread](https://github.com/amphp/thread) - An async multi-threaded task dispatcher built on [amp](#amphp)
 * [asyncphp/assistant](https://github.com/asyncphp/assistant) - A neat wrapper around multi-process abstractions and distributed event emitters
 * [asyncphp/doorman](https://github.com/asyncphp/doorman) - Child process management
+* [hiblaphp/async](https://github.com/hiblaphp/async) - async/await implementation with fiber-based primitives and structured concurrency for [Hibla](#hibla)
+* [hiblaphp/parallel](https://github.com/hiblaphp/parallel) - Erlang-style multi-processing for [Hibla](#hibla) for fault-tolerant parallelism for PHP
 * [krake-php/runtime](https://github.com/kraken-php/runtime) - Container-based abstractions for Threads and Processes with delegated supervising
 * [reactphp/child-process](https://github.com/reactphp/child-process) - Library for executing child processes
 * [recoilphp/recoil](https://github.com/recoilphp/recoil) - Cooperative multitasking for PHP via coroutines
@@ -288,6 +307,7 @@ Asynchronous concurrent distributed networking framework for PHP
 ### Promises
 
 * [guzzle/promises](https://github.com/guzzle/promises) - Promises/A+ library for PHP with synchronous support
+* [hiblaphp/promise](https://github.com/hiblaphp/promise) - Promise/A+ inspired library with strong focus on cancellation, concurrency control, and structured concurrency
 * [kraken-php/promise](https://github.com/kraken-php/promsies) - Implementation of Promise/A+ promises with cancellation support
 * [reactphp/promise](https://github.com/reactphp/promise) - A lightweight implementation of CommonJS Promises/A for PHP
 * [reactphp/promise-timer](https://github.com/reactphp/promise-timer) - Timeout implementation for the [React](#react) promises library
@@ -296,6 +316,8 @@ Asynchronous concurrent distributed networking framework for PHP
 
 * [amphp/socket](https://github.com/amphp/socket) - Non-blocking socket and TLS functionality built on [amp](#amphp)
 * [clue/php-socket-react](https://github.com/clue/php-socket-react) - Binding for raw sockets (ext-sockets) in [React](#react)
+* [hiblaphp/socket](https://github.com/hiblaphp/socket) - Async TCP, TLS, and Unix sockets for [Hibla](#hibla) with mid-flight TLS upgrades and Happy Eyeballs (RFC 8305)
+* [hiblaphp/stream](https://github.com/hiblaphp/stream) - Non-blocking, event-driven streams for [Hibla](#hibla)
 * [kraken-php/ipc](https://github.com/kraken-php/ipc) - Asynchronous Socket listener and client
 * [kraken-php/stream](https://github.com/kraken-php/stream) - Asynchronous Streams
 * [reactphp/socket](https://github.com/reactphp/socket) - Asynchronous socket server
@@ -336,3 +358,4 @@ Asynchronous concurrent distributed networking framework for PHP
 * Daniel Lowrey / rdlowrey - [GitHub](https://github.com/rdlowrey), [Twitter](https://twitter.com/rdlowrey)
 * Kamil Jamroz / khelle - [GitHub](https://github.com/khelle)
 * Niklas Keller / kelunik - [GitHub](https://github.com/kelunik), [Twitter](https://twitter.com/kelunik)
+* Reymart Calicdan / rcalicdan - [GitHub](https://github.com/rcalicdan), [Twitter](https://x.com/rcalicdan06)
